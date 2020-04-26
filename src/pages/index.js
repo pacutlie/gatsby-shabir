@@ -9,8 +9,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi... Saya Muhammad Shabir</h1>
-    <p>Saya Bayi berumur 7 bulan.</p>
-    <p>Ini adalah website yang disiapkan untuk saya.</p>
+    <p>Saya Bayi berumur 7 bulan dan masih minum susu.</p>
+    <p>Ini adalah website yang disiapkan untuk saya untuk dikelola dikemudian waktu :)</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
