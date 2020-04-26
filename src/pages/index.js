@@ -14,6 +14,17 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+<div className="container front-page">
+          <section className="section">
+            <h2>
+              Latest Articles
+              <Link to="/blog" className="view-all">
+                View all
+              </Link>
+            </h2>
+            <PostListing simple postEdges={latestPostEdges} />
+          </section>
+</div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
